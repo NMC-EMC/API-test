@@ -6,8 +6,8 @@
 import requests
 import json
 
-#url = r'http://api.waqi.info/feed/beijing/haidianwanliu/?token=f903f45f3a6dbca9f1bc790ea60c24aa65e50e59'
-url = r'http://api.waqi.info/feed/beijing/?token=f903f45f3a6dbca9f1bc790ea60c24aa65e50e59'
+#url = r'http://api.waqi.info/feed/beijing/haidianwanliu/?token=XXXXXX'
+url = r'http://api.waqi.info/feed/beijing/?token=XXXXXX'
 jsonStr = requests.get(url).text
 
 data = json.loads(jsonStr)
